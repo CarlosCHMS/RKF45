@@ -1,0 +1,4 @@
+rm ./main ./output.csv
+gcc ./main.c ./rkf45.c -lm -o ./main
+./main
+cat ./output.csv
