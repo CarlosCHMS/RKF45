@@ -3,7 +3,9 @@
 #include<math.h>
 #include"rkf45.h"
 
-
+/*
+Example of use.
+*/
 
 void testFunc(double t, double *x, double *dx, PARAMETERS* p)
 {
